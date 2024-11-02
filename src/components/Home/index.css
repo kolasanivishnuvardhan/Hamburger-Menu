@@ -1,0 +1,28 @@
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.show-sm-home-img {
+  width: 40%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.show-lg-home-img {
+  display: none;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .show-sm-home-img {
+    display: none;
+  }
+
+  .show-lg-home-img {
+    display: flex;
+    margin-top: 10px;
+  }
+}

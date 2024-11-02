@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.website-logo {
+  height: 40px;
+  width: 50px;
+}
+
+.hamburger-menu {
+  height: 20px;
+  width: 40px;
+}
+
+.seperator {
+  width: 100%;
+  height: 0.3px;
+  color: #616e7c;
+  background-color: #616e7c;
+}
+
+.logo-menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.hamburger-btn {
+  border-color: transparent;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.popup-bg-container {
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

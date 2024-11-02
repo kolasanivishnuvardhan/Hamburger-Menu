@@ -1,0 +1,28 @@
+.about-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.show-sm-about-img {
+  width: 40%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.show-lg-about-img {
+  display: none;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .show-sm-about-img {
+    display: none;
+  }
+
+  .show-lg-about-img {
+    display: flex;
+    margin-top: 10px;
+  }
+}
